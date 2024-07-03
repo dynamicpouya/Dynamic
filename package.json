@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./tailwind.css -o ./Files/Css/main.css --watch",
+    "server": "json-server db.json --watch -p 3003"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.7.2",
+    "flowbite": "^2.3.0",
+    "json-server": "^1.0.0-beta.1"
+  },
+  "name": "main-project",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

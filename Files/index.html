@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../node_modules/aos/dist/aos.css">
+    <script src="../node_modules/aos/dist/aos.js" defer ></script>
+    <script src="./js/main.js" defer></script>
+    <title>Kali Games</title>
+</head>
+<body class="bg-black">
+<!-------------------------------------------Header------------------------------------>
+<header class="w-full">
+    <div class="container mx-auto">
+        <div class="w-[80%] bg-black mx-auto rounded-3xl shadow-3xl overflow-hidden relative">
+            <div class="w-full h-12 bg-black flex items-center justify-between lg:justify-center ">
+                <div class="h-full flex items-center relative lg:ms-12" id="wrapperLogo">
+                    <div class="hidden w-[80px] h-full bg-red-600 z-0 absolute md:ms-12 rounded-3xl" id="redbglogo"></div>
+                </div>
+               <div class="border-l-2 border-l-gray-600 flex items-center justify-center h-8 ms-3 hidden lg:block">
+                   <ul class="flex ps-2 text-white" id="ul"></ul>
+               </div>
+               <div class="border-l-2 border-l-gray-600 ps-3 ms-5 w-[239px]  hidden lg:block" >
+                   <div class="relative flex items-center w-20 bg-gray-600 rounded-3xl ms-2 ">
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 z-10 ps-1 h-8 text-gray-500">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                       </svg>
+                       <input type="text" placeholder="Search" class="bg-gray-600 rounded-3xl absolute ms-3 flex items-center z-0 ps-5 border-none focus:outline-none py-1">
+
+                   </div>
+               </div>
+                <div class=" inline-flex items-center justify-center h-8 border-l-2 border-l-gray-600 ms-2 ps-2  hidden lg:block"><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white hover:text-red-600 hover:scale-150 ease-in-out">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                    </svg>
+                </a>
+                </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 lg:hidden text-white me-7 hover:cursor-pointer" id="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            </div>
+            <div class="relative z-0">
+                <video autoplay class="w-full h-full">
+                    <source src="./videos/final.mp4" type="video/mp4">
+                </video>
+                <div class="absolute h-full w-full bottom-0 z-10">
+                    <div class="w-full h-full bg-transparent z-10 " id="wrapperResponsiveDiv">
+                        <div class="w-[40%] absolute right-0 translate-x-64" id="responDiv">
+                            <div class="w-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white" id="closeBtn">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-------------------------------------------section: trailer-fifa------------------------------------------->
+<section class="w-full">
+    <div class=" w-full mt-3 overflow-hidden mx-auto shadow relative md:flex" id="wrapperTrailer">
+        <div class="w-[50%] h-full absolute flex items-center pl-8" id="Trailer"></div>
+    </div>
+</section>
+<!----------------------------------------------section:package of games------------------------------------->
+<section class="w-full relative overflow-hidden" id="wrapperCover">
+    <div class="w-full z-0-" id="back"></div>
+    <div class="container absolute inline-flex h-[51%] w-[28%] lg:w-[50%] left-[4rem] top-[2rem] sm:top-12 sm:left-28 md:top-[5rem] md:left-[9rem]" id="wrappercards"></div>
+    <div class="absolute grid-cols-1 text-white z-10 bottom-2 pl-4 sm:pl-[3rem] sm:bottom-[3rem] lg:pl-[4rem] " id="text"></div>
+</section>
+<!-----------------------------------------------section: menugames------------------------------------------->
+<section class="w-full relative top-32 pb-16">
+    <div class="w-full flex justify-center"><h1 class="text-white text-2xl font-bold pb-[36px]">Games</h1></div>
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-y-8 " id="wrapperMenu"></div>
+</section>
+<!----------------------------------------------------Footer------------------------------------------->
+<footer>
+    <div class="w-full h-[20rem] bg-containerColor mt-[6rem] relative">
+        <div class="h-28 w-full absolute top-12 flex justify-center items-center">
+            <img src="../Files/images/64px-ESRB_Everyone.svg.png" class= "w-[2rem] sm:w-[7rem] sm:pl-8" alt="logo">
+            <img src="../Files/images/logo%20ps4.png" class="text-white w-[6rem] sm:w-[9rem] sm:pl-8" alt="logo">
+            <img src="../Files/images/pc%20logo.png" class="text-white w-[2rem] sm:w-[6rem] sm:pl-8" alt="logo">
+            <img src="../Files/images/Xbox-Logo.wine.png" class="text-white w-[6rem] sm:w-[9rem] sm:pl-8" alt="logo"></div>
+        <div class="absolute w-full bottom-4 flex sm:justify-center"><p class="text-white  w-full sm:w-[50%]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p></div>
+    </div>
+
+</footer>
+</body>
+</html>

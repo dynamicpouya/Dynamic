@@ -1,0 +1,125 @@
+{
+  "logoPic": [
+    {
+      "imgLogo": "/Files/images/main logo.png"
+    }
+  ],
+  "navbar": [
+    {
+      "id": "home",
+      "text": "Home"
+    },{
+      "id": "gamers",
+      "text": "Gamers"
+    },{
+      "id": "support",
+      "text": "Support"
+    },{
+      "id": "about us",
+      "text": "About Us"
+    }
+  ],
+  "mediaBody": [
+    {
+      "Media": "/Files/videos/bodyVideo.mp4"
+    },
+    {
+      "img": "/Files/images/fifa 2024.jpg"
+    },
+    {
+      "alt": "trailer.fifa"
+    },
+    {
+      "text": "EA SPORTS FC 24 - PlayStation 4"
+    },
+    {
+      "textButton": "Order Now"
+    }
+  ],
+  "sectionPackage": [
+    {
+      "background": [
+        {
+          "bg": "/Files/images/pxfuel.jpg",
+          "altImg": "backgroundPart"
+        }
+      ]
+    },
+    {
+      "packages": [
+        {
+          "img1":"/Files/images/nfs heat.jpg",
+          "img2":"/Files/images/uncharted 4.jpg",
+          "img3":"/Files/images/fifa.jpg",
+          "img4":"/Files/images/gta v.jpg"
+        }
+      ]
+    },
+    {
+      "title":[
+        {
+          "text": "Get Our Special Offer For Your Console just: $500"
+        }
+        ]
+    }
+  ],
+  "sectionMenu": [
+    {
+      "img1":"/Files/images/2e3169ac8e3001ed4f358977258676a8.jpg",
+      "img2":"/Files/images/assasins creed valaha.jpg",
+      "img3":"/Files/images/battlefield 2042.jpg",
+      "img4":"/Files/images/days gone.jpg",
+      "img5":"/Files/images/fifa.jpg",
+      "img6":"/Files/images/gta v.jpg",
+      "img7":"/Files/images/kombat.jpg",
+      "img8":"/Files/images/mafia 2.jpg",
+      "img9":"/Files/images/mafia 3.jpg",
+      "img10":"/Files/images/nfs heat.jpg",
+      "img11":"/Files/images/resident evill 4.jpg",
+      "img12":"/Files/images/the last of us.jpg",
+      "img13":"/Files/images/the last of us 2.jpg",
+      "img14":"/Files/images/uncharted 4.jpg",
+      "img15":"/Files/images/fall guys.avif",
+      "img16":"/Files/images/Modern warfar 3.jpg",
+      "img17":"/Files/images/God of war.jpg"
+    },
+    {
+      "img1":"Cyberpunk 2077",
+      "img2":"Assasins Creed: Valhalla ",
+      "img3":"Battlefield 2042",
+      "img4":"Days Gone",
+      "img5":"Fifa 24",
+      "img6":"Grand Theft Auto V",
+      "img7":"Mortal Kombat ultimate",
+      "img8":"Mafia II",
+      "img9":"Mafia III",
+      "img10":"Need For Speed Heat",
+      "img11":"Resident Evill 4.",
+      "img12":"The Last Of Us",
+      "img13":"The Last Of Us 2",
+      "img14":"Uncharted 4",
+      "img15":"Fall Guys",
+      "img16":"Call of Duty: Modern Warfare III",
+      "img17":"God of War"
+    },
+    {
+      "img1":"$49.99",
+      "img2":"$59.99",
+      "img3":"$69.99",
+      "img4":"$45.90",
+      "img5":"$69.99",
+      "img6":"$39.99",
+      "img7":"$49.99",
+      "img8":"$29.99",
+      "img9":"$29.99",
+      "img10":"$59.99",
+      "img11":"$39.99",
+      "img12":"$69.99",
+      "img13":"$59.99",
+      "img14":"$49.99",
+      "img15":"Free",
+      "img16":"69.99",
+      "img17":"80.99"
+    }
+  ]
+}
